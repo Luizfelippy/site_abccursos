@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section h2,
+section h3,
+form button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+    font-size: 24px;
+} 
+
+body, input {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 14px ;
+    background-color: #186151;
+    color: #ecf0f1;
+    font-size: 20px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 18px;
+    font-size: 22px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+}
+
+.container {
+    max-width: 1280px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section {
+    padding: 32px 0;
+}
+
+section h2 {
+    margin-right: 280px;
+    margin-bottom: 32px;
+}
+
+section, a {
+    margin: 8px;
+    color: #186151;
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+section li {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.logo-type {
+    height: 360px;
+    padding-left: 24px;
+}
+
+#signup .container {
+    display: block;
+}
+
+.registration {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form button,
+form select {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #186151;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+form button:hover {
+    background-color: #41aa93;
+}
+
+input:focus, select:focus{
+    outline-color: #186151;
+}
+
+.social-media img {
+    height: 24px;
+}
+
+.social-media li {
+    display: inline;
+    padding: 4px;
+}
+
+.social-media li a {
+    text-decoration: none;
+}
+
+footer a {
+    color: #ecf0f1;
+}
+
+footer li {
+    display: block;
+    color: #ecf0f1;
+    padding: 4px;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #186151;
+    color: #ecf0f1;
+    padding: 4px;
+}
+
+footer p {
+    padding: 8px;
+}
